@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="work_impact" table="x_12191_customer_s_customer_service" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>work_impact</element>
+            <hint>Customer is largely able to work 15% to 50% of the time.</hint>
+            <inactive>false</inactive>
+            <label>Largely Able to Work</label>
+            <language>en</language>
+            <name>x_12191_customer_s_customer_service</name>
+            <sequence/>
+            <sys_created_by>joelpomales@parallaxsmc.com</sys_created_by>
+            <sys_created_on>2018-08-22 17:38:54</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>eae5b3cedb0c2300a1825ff0cf96192a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>joelpomales@parallaxsmc.com</sys_updated_by>
+            <sys_updated_on>2018-08-22 17:38:54</sys_updated_on>
+            <value>largely able to work</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>work_impact</element>
+            <hint>Customer not able to work 85% to 100% of the time.</hint>
+            <inactive>false</inactive>
+            <label>Not Able to Work</label>
+            <language>en</language>
+            <name>x_12191_customer_s_customer_service</name>
+            <sequence/>
+            <sys_created_by>joelpomales@parallaxsmc.com</sys_created_by>
+            <sys_created_on>2018-08-22 17:37:32</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ce75bf8edb0c2300a1825ff0cf961930</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>joelpomales@parallaxsmc.com</sys_updated_by>
+            <sys_updated_on>2018-08-22 17:37:32</sys_updated_on>
+            <value>not able to work</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>work_impact</element>
+            <hint>Customer able to work 50% to 85% of the time.</hint>
+            <inactive>false</inactive>
+            <label>Partially Able to Work</label>
+            <language>en</language>
+            <name>x_12191_customer_s_customer_service</name>
+            <sequence/>
+            <sys_created_by>joelpomales@parallaxsmc.com</sys_created_by>
+            <sys_created_on>2018-08-22 17:37:50</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1475bf4edb0c2300a1825ff0cf96193b</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>joelpomales@parallaxsmc.com</sys_updated_by>
+            <sys_updated_on>2018-08-22 17:38:18</sys_updated_on>
+            <value>partially able to work</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>work_impact</element>
+            <name>x_12191_customer_s_customer_service</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>joelpomales@parallaxsmc.com</sys_created_by>
+            <sys_created_on>2018-08-22 17:37:32</sys_created_on>
+            <sys_id>a5b533cedb0c2300a1825ff0cf96198e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>work_impact</sys_name>
+            <sys_package display_value="Customer Service" source="x_12191_customer_s">7a929f3ddb402300a1825ff0cf96191b</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Customer Service">7a929f3ddb402300a1825ff0cf96191b</sys_scope>
+            <sys_update_name>sys_choice_x_12191_customer_s_customer_service_work_impact</sys_update_name>
+            <sys_updated_by>joelpomales@parallaxsmc.com</sys_updated_by>
+            <sys_updated_on>2018-08-22 17:37:32</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

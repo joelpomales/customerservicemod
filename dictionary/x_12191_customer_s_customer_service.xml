@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" extends="task" label="Customer Service" max_length="40" name="x_12191_customer_s_customer_service" type="collection">
+        <element label="Caller" max_length="32" name="caller" reference="sys_user" type="reference"/>
+        <element choice="1" label="Request type" max_length="40" name="request_type" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Help" value="help"/>
+                <element inactive_on_update="false" label="Information" value="information"/>
+                <element inactive_on_update="false" label="Change" sequence="0" value="change"/>
+                <element inactive_on_update="false" label="Purchase" sequence="1" value="purchase"/>
+            </choice>
+        </element>
+        <element choice="3" default="No Impact. Customer able to work." label="Work Impact" max_length="40" name="work_impact" type="string">
+            <choice>
+                <element hint="Customer is largely able to work 15% to 50% of the time." inactive_on_update="false" label="Largely Able to Work" value="largely able to work"/>
+                <element hint="Customer not able to work 85% to 100% of the time." inactive_on_update="false" label="Not Able to Work" value="not able to work"/>
+                <element hint="Customer able to work 50% to 85% of the time." inactive_on_update="false" label="Partially Able to Work" value="partially able to work"/>
+            </choice>
+        </element>
+    </element>
+</database>

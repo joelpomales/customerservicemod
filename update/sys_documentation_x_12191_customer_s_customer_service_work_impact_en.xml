@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="work_impact" label="Work Impact" language="en" table="x_12191_customer_s_customer_service">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>work_impact</element>
+            <help/>
+            <hint/>
+            <label>Work Impact</label>
+            <language>en</language>
+            <name>x_12191_customer_s_customer_service</name>
+            <plural>Work Impacts</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>joelpomales@parallaxsmc.com</sys_created_by>
+            <sys_created_on>2018-08-22 17:35:12</sys_created_on>
+            <sys_id>e725bb8edb0c2300a1825ff0cf9619b9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Work Impact</sys_name>
+            <sys_package display_value="Customer Service" source="x_12191_customer_s">7a929f3ddb402300a1825ff0cf96191b</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Customer Service">7a929f3ddb402300a1825ff0cf96191b</sys_scope>
+            <sys_update_name>sys_documentation_x_12191_customer_s_customer_service_work_impact_en</sys_update_name>
+            <sys_updated_by>joelpomales@parallaxsmc.com</sys_updated_by>
+            <sys_updated_on>2018-08-22 17:35:12</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>
